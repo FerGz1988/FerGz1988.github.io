@@ -6,9 +6,9 @@
 }
 
 body{
-    font-family: 'Space Mono', monospace; 
-    /* font-weight: bold; */
-    background-color:#ABEBC6;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+    background-color:#ECF0F1;
     color: black;
 }
 .contenedor{
@@ -28,15 +28,16 @@ body{
 
 
 .titulo{
-    font-family: 'Qwitcher Grypen', 'Space Mono', monospace;
-    font-size: 80px;
+    /* font-family: 'IBM Plex Mono', monospace; */
+    font-size: 55px;
     font-weight: bolder;
     /* background-color: antiquewhite; */
     padding: 10px;
     text-align: center;
-    
+    /* text-decoration: underline; */
     
 }
+
 /* 
 .nombre{
     font-family: 'Qwitcher Grypen', 'Space Mono', monospace;
@@ -51,22 +52,48 @@ body{
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 3;
+    display: block;
+    margin: auto;
 }
 .computadora{
-    height: 150px;
-    width: 150px;
-    margin-left: 150px;
-    background-color: black;
+    height: 300px;
+    
+    border-radius: 50%;
+    box-shadow: 1px 8px 5px black;
+    /* margin-left: 150px; */
+    background-color: whitesmoke;
     
     
 }
 .articulo{
+    
     /* background-color: blue; */
     grid-column-start: 1;
     grid-column-end: 5;
     text-align: center;
+    line-height: 40px;
     
 }
+/* emoji */
+
+#policia{
+    font-size: 35px;
+}
+
+.virus{
+    font-size: 35px;
+}
+
+.cohete{
+    font-size: 35px;
+}
+
+.libros{
+    font-size: 35px;
+}
+
+
+
 
 .piedepagina img{
     width: 30px;
