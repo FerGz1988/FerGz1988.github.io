@@ -56,9 +56,11 @@ body{
     margin: auto;
 }
 .computadora{
-    height: 300px;
+    height: auto;
+    width: 200px;
+   
     
-    border-radius: 50%;
+    border-radius: 10% 10%;
     box-shadow: 1px 8px 5px black;
     /* margin-left: 150px; */
     background-color: whitesmoke;
